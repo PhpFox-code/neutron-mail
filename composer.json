@@ -1,0 +1,24 @@
+{
+  "name": "codelego/phpfox-mail",
+  "description": "PhpFox Mail Transport Component",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Nam Nguyen",
+      "email": "nam.ngvan@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Phpfox\\Mail\\": "src/"
+    }
+  },
+  "require": {
+    "phpmailer/phpmailer": "^5.2",
+    "codelego/phpfox-i18n": "dev-master"
+  },
+  "autoload-dev": {
+    "Phpfox\\Mail\\": "test/"
+  }
+}
