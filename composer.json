@@ -1,6 +1,6 @@
 {
   "name": "codelego/phpfox-mail-manager",
-  "description": "PhpFox Mail Transport Component",
+  "description": "Mail system manager for phpfox framework.",
   "type": "library",
   "authors": [
     {
@@ -12,14 +12,16 @@
   "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
-      "Phpfox\\Mail\\": "src/"
+      "Phpfox\\MailManger\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Phpfox\\MailManger\\": "test/"
     }
   },
   "require": {
     "phpmailer/phpmailer": "^5.2",
     "codelego/phpfox-i18n": "dev-master"
-  },
-  "autoload-dev": {
-    "Phpfox\\Mail\\": "test/"
   }
 }

@@ -1,1 +1,1 @@
-# phpfox-mail
+# phpfox-mail-manager
