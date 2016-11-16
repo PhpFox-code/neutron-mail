@@ -1,5 +1,5 @@
 {
-  "name": "codelego/phpfox-mail-manager",
+  "name": "codelego/phpfox-mail",
   "description": "Mail system manager for phpfox framework.",
   "type": "library",
   "authors": [
@@ -12,16 +12,14 @@
   "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
-      "Phpfox\\MailManger\\": "src/"
+      "Phpfox\\Mail\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Phpfox\\MailManger\\": "test/"
+      "Phpfox\\Mail\\": "test/"
     }
   },
   "require": {
-    "phpmailer/phpmailer": "^5.2",
-    "codelego/phpfox-i18n": "dev-master"
   }
 }

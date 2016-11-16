@@ -1,10 +1,10 @@
 <?php
-namespace Phpfox\MailManager;
+namespace Phpfox\Mail;
 
 /**
  * Class MailService
  *
- * @package Phpfox\MailManager
+ * @package Phpfox\Mail
  */
 class MailService
 {

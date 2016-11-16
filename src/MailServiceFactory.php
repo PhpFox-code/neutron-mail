@@ -1,12 +1,12 @@
 <?php
-namespace Phpfox\MailManager;
+namespace Phpfox\Mail;
 
 /**
  * Class MailServiceFactory
  *
  * Default MailServiceFactory
  *
- * @package Phpfox\MailManager
+ * @package Phpfox\Mail
  */
 final class MailServiceFactory
 {
