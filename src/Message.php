@@ -76,7 +76,7 @@ class Message
         $this->bodyHtml = $bodyHtml;
         $this->bodyText = $bodyText;
     }
-    
+
     /**
      * @return string
      */

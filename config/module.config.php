@@ -4,7 +4,7 @@ namespace Phpfox\Mail;
 
 return [
     'aliases'   => [],
-    'factories' => [
-        'mailService' => MailServiceFactory::class,
+    'services' => [
+        'mail' => MailService::class,
     ],
 ];
