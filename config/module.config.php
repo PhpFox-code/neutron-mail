@@ -4,6 +4,8 @@ namespace Phpfox\Mail;
 
 return [
     'services' => [
-        'mail' => MailService::class,
+        'map' => [
+            'mail' => [null, MailService::class,],
+        ],
     ],
 ];
