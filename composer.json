@@ -1,5 +1,5 @@
 {
-  "name": "codelego/phpfox-mail",
+  "name": "codelego/neutron-mail",
   "description": "Mail system manager for phpfox framework.",
   "type": "library",
   "authors": [
