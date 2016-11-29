@@ -1,11 +1,11 @@
 <?php
 
-namespace Phpfox\Mail;
+namespace Neutron\Mail;
 
 /**
  * Class Message
  *
- * @package Phpfox\Mail
+ * @package Neutron\Mail
  */
 class Message
 {
